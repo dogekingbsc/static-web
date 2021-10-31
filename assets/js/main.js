@@ -20,10 +20,10 @@ window.onscroll = function () {
 
 	if (window.pageYOffset > sticky) {
 		header_navbar.classList.add("sticky");
-		logo.src = 'assets/img/logo/logogreen.png';
+		logo.src = 'assets/img/logo/logo-2.svg';
 	} else {
 		header_navbar.classList.remove("sticky");
-		logo.src = 'assets/img/logo/logo.png';
+		logo.src = 'assets/img/logo/logo.svg';
 	}
 
 
