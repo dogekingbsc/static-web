@@ -20,10 +20,10 @@ window.onscroll = function () {
 
 	if (window.pageYOffset > sticky) {
 		header_navbar.classList.add("sticky");
-		logo.src = 'assets/img/logo/logo-2.svg';
+		logo.src = 'assets/img/logo/logogreen.png';
 	} else {
 		header_navbar.classList.remove("sticky");
-		logo.src = 'assets/img/logo/logo.svg';
+		logo.src = 'assets/img/logo/logo.png';
 	}
 
 
@@ -75,7 +75,7 @@ navbarToggler.addEventListener('click', function () {
 	navbarToggler.classList.toggle("active");
 });
 
-//====== counter up 
+//====== counter up
 var cu = new counterUp({
 	start: 0,
 	duration: 2000,
