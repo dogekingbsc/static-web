@@ -22,6 +22,6 @@ jobs:
         with:
           pin-name: 'dogeking'
           path: './public'
-          pinata-api-key: ${{ secrets.PINATA_API_KEY }}
-          pinata-secret-api-key: ${{ secrets.PINATA_API_SECRET_KEY }}
+          pinata-api-key: 0c24fe0e80866a94e276
+          pinata-secret-api-key: 13e03ba79411f1ad1709266ea5aa320fc6dbbc81465c0a0a00fd40e4ce7b40fc
           verbose: true             
