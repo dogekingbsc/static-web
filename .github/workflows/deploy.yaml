@@ -24,6 +24,4 @@ jobs:
           path: './public'
           pinata-api-key: ${{ secrets.PINATA_API_KEY }}
           pinata-secret-api-key: ${{ secrets.PINATA_API_SECRET_KEY }}
-          verbose: true
-          remove-old: true
-        
+          verbose: true             
