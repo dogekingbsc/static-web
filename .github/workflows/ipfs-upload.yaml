@@ -1,6 +1,6 @@
 uses: anantaramdas/ipfs-pinata-deploy-action@v1.6.4
 with:
-  pin-name: 'My personal site'
+  pin-name: 'dogeking'
   path: './public'
   pinata-api-key: ${{ secrets.PINATA_API_KEY }}
   pinata-secret-api-key: ${{ secrets.PINATA_API_SECRET_KEY }}
